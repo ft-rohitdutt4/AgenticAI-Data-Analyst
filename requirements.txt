@@ -1,0 +1,34 @@
+# Core
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+streamlit==1.35.0
+python-multipart==0.0.9
+python-dotenv==1.0.1
+
+# Database
+PyMySQL==1.1.1
+cryptography==42.0.8
+sqlalchemy==2.0.30
+
+# LLM
+openai==1.30.1
+
+# LangGraph — agent framework 
+langgraph==0.1.19
+langchain-core==0.2.10
+
+# Data
+pandas==2.2.2
+numpy==1.26.4
+
+# Visualization
+plotly==5.22.0
+
+# Memory / Caching
+redis==5.0.4
+
+# Utils
+pydantic==2.7.1
+httpx==0.27.0
+tenacity==8.3.0
+typing_extensions==4.12.2

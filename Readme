@@ -1,0 +1,102 @@
+# 🤖 Agentic AI Data Analyst
+
+Upload a CSV → Ask a question → Get autonomous analysis.
+
+---
+
+## 🚀 What This Does
+
+A **production-level AI agent** that:
+
+* Uploads CSV → stores in MySQL
+* Understands natural language queries
+* Plans multi-step analysis
+* Executes SQL + Python tools
+* Generates charts + business insights
+
+👉 Not a chatbot — a **true agent with reasoning loop**
+
+---
+
+## 🧠 Architecture
+
+```
+User → FastAPI → LangGraph Agent → Tools → MySQL
+```
+
+Agent Loop:
+
+```
+Planner → Executor → Memory → Evaluator → Synthesiser
+```
+
+---
+
+## ⚙️ Tech Stack
+
+* FastAPI
+* LangGraph
+* MySQL + SQLAlchemy
+* Pandas
+* Plotly
+* Streamlit
+* OpenAI / DeepSeek
+
+---
+
+## ▶️ Run Locally
+
+```bash
+pip install -r requirements.txt
+
+uvicorn api.main:app --reload
+streamlit run frontend/app.py
+```
+
+---
+
+## 📊 Example Queries
+
+* Why did revenue drop in March?
+* Top 5 products by revenue
+* Show monthly trends
+* Detect anomalies
+
+---
+
+## 🔒 Safety
+
+* SELECT-only SQL
+* Schema-aware queries
+* Max 5 iterations (no infinite loops)
+
+---
+
+## 📁 Structure
+
+```
+agent/        → LangGraph logic
+tools/        → SQL, analysis, viz
+api/          → FastAPI backend
+frontend/     → Streamlit UI
+database/     → MySQL connection
+ingestion/    → CSV → DB
+```
+
+---
+
+## ⭐ Highlights
+
+* True agentic system (multi-step reasoning)
+* Tool-based execution (not just LLM)
+* End-to-end pipeline (UI + API + DB)
+
+---
+
+## 📌 Note
+
+Upload CSV before querying.
+
+---
+
+⭐ Star this repo if you found it useful!
